@@ -29,14 +29,14 @@ public class TrianguloRectangulo {
 	}
 	/**
 	 * Area del triangulo rectangulo
-	 * @return
+	 * @return devuelve area
 	 */
 	public double area() {
 		return (this.a*this.b)/2;
 	}
 	/**
 	 * Calcular la hipotenusa y darle valor a c
-	 * @return
+	 * @return devuelve hipotenusa
 	 */
 	public double hipotenusa() {
 		this.c = (this.a*this.a)+(this.b*this.b);
@@ -44,7 +44,7 @@ public class TrianguloRectangulo {
 	}
 	/**
 	 * Calcular perimetro llamando a hipotenusa()
-	 * @return
+	 * @return devuelve perimetro
 	 */
 	public double perimetro() {
 		return (this.a + this.b + this.hipotenusa());
@@ -65,21 +65,21 @@ public class TrianguloRectangulo {
 	}
 	/**
 	 * Getter a
-	 * @return
+	 * @return a
 	 */
 	public int geta() {
 		return this.a;
 	}
 	/**
 	 * Getter b
-	 * @return
+	 * @return b
 	 */
 	public int getb() {
 		return this.b;
 	}
 	/**
 	 * Metodo toString que devuelve todos los lados
-	 * @return
+	 * @return valores
 	 */
 	public String toString() {
 		String cadena = "Valor a: "+this.a+"\n";
